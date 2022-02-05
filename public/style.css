@@ -1,0 +1,139 @@
+body {
+    background-image: url(./78461388.png);
+    background-size: 100px;
+    background-color: #96CEB4;
+    font-family: "Lucida Handwriting" cursive;
+}
+
+.task{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFEEAD ;
+    color: black;
+    padding: 1rem;
+    min-width: 35rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.home-heading{
+    margin: 0;
+}
+
+.task-container{
+    margin-left: 1rem;
+}
+
+.task-form{
+    display: flex;
+    margin: 0.5rem 0;
+    width: 100%;
+    height: max-content;
+}
+
+.task-name-container {
+    flex: 75;
+    border-bottom: 1px solid black;
+}
+
+.task-name-container * {
+    cursor: default;
+    padding: 0;
+    margin: 0;
+}
+
+.task-btn-container {
+    flex: 25;
+    margin-left: 0.5rem;
+    display: flex;
+    width: max-content;
+    height: max-content;
+    justify-content: space-around;
+}
+
+.task-btn-container * {
+    all:unset;
+    cursor: pointer;
+    background-color: azure;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    padding: 0 10px;
+    text-align: center;
+    margin-top: 0.15rem;
+    transition: 0.5s;
+}
+
+.task-btn-container *:hover {
+    transform: scale(105%);
+}
+
+.add-container {
+    margin: 1rem 0 0 2rem;
+}
+
+/* EDIT PAGE */
+
+.edit-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    background-color:  #FFEEAD;
+    min-width: 35rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.edit-container *{
+    margin: 0.2rem 0;
+}
+
+.edit-heading{
+    margin: 0;
+}
+
+.edit-btn-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-btn-container *{
+    all:unset;
+    cursor: pointer;
+    background-color: azure;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    padding: 0 10px;
+    text-align: center;
+    margin-top: 0.5rem;
+    transition: 0.5s;
+}
+
+.edit-btn-container *:hover {
+    transform: scale(105%);
+}
+
+/* #FFEEAD */
+/* Add */
+.add-btn {
+    all:unset;
+    cursor: pointer;
+    background-color: azure;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    padding: 3px 6px 3px 6px;
+    text-align: center;
+    margin-top: 0.5rem;
+    transition: 0.5s;
+} 
+
+.add-btn :hover {
+    transform: scale(105%);
+}
+
+
